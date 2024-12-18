@@ -4,3 +4,6 @@ project(Advent2024)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Advent2024 main.cpp)
+
+find_package(Boost REQUIRED COMPONENTS algorithm)
+target_link_libraries(Advent2024 Boost::algorithm)

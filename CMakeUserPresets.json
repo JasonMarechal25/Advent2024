@@ -6,6 +6,9 @@
       "inherits": "vcpkg",
       "environment": {
         "VCPKG_ROOT": "vcpkg"
+      },
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
       }
     }
   ]
